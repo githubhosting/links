@@ -13,6 +13,7 @@
   filter: invert(1) hue-rotate(180deg);
 }
 
+
 /* === ROOT === */
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
@@ -286,8 +287,11 @@ body {
 
 .btnh :hover {
   text-decoration: none;
-  background: var(--primary);
-  color: var(--greyLight-1);
+  color: var(--first-color);
+  background: -webkit-linear-gradient(#00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .button-3 {
